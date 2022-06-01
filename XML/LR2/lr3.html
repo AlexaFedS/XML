@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+    <body>
+        <scriptsrc="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+        crossorigin="anonymous"></script>
+        <script>
+            const method = 'friends.get'
+            const userId = '183358560'
+            const token = '1c95d0ee4b6f868028cd81987644eaae26c5b310a642cd08b0f30bd323f61631c9d3218c7c84360935f3b'
+            const version = '5.131'
+            const fields = 'online'
+            const data = $.getJSON(
+                `https://api.vk.com/method/${method}?user_id=${userId}&access_token=${token}&v=${version}&fields=${fields}`,(data) => {
+                    console.log('Out data is: ', data);
+                }
+            )
+            //https://oauth.vk.com/blank.html#access_token=1c95d0ee4b6f868028cd81987644eaae26c5b310a642cd08b0f30bd323f61631c9d3218c7c84360935f3b&expires_in=0&user_id=183358560
+        </script>
+    </body>
+</html>

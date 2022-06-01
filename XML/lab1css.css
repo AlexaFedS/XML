@@ -1,0 +1,33 @@
+films {
+	background: #212121;
+	color: whitesmoke;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	text-align: center;
+}
+
+title {
+	color: red;
+	font-size: 18pt;
+	font-family: Arial, monospace;
+}
+
+genre {
+	color: #1BD7BB;
+	font-size: 16pt;
+	font-family: Andale Mono, monospace;
+}
+
+duration {
+	color: #FEDD00;
+}
+
+level 
+{	font-family: Courier New, monospace;
+	text-decoration: underline;
+}
+
+actors {
+	font-family: Brush Script MT, cursive;
+}

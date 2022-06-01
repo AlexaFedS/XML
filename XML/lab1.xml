@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type='text/css' href='lab1css.css'?>
+<!DOCTYPE films>
+<films>
+	<red_not>
+		<head>
+			<title>Красное уведомление</title>
+			<genre>Комедия</genre>
+			<duration>1ч. 57мин.</duration>
+			<level>12+</level>
+		</head>
+		<actors>
+			<actor id = "1">Дуэйн Джонсон,</actor>
+			<actor id = "1">Райан Рейнольдс,</actor>
+			<actor id = "1">Галь Годот,</actor>
+			<actor id = "1">Риту Арья.</actor>
+		</actors>
+	</red_not>
+	<ghost_six>
+		<head>
+			<title>Призрачная шестерка</title>
+			<genre>Приключенческое кино</genre>
+			<duration>2ч. 8мин.</duration>
+			<level>18+</level>
+		</head>
+		<actors>
+			<actor id = "2">Райан Рейнольдс,</actor>
+			<actor id = "2">Мануэль Гарсия-Рульфо,</actor>
+			<actor id = "2">Мелани Лоран,</actor>
+		</actors>
+	</ghost_six>
+	<imm_guard>
+		<head>
+			<title>Бессмертная гвардия</title>
+			<genre>Фильмы на основе книг</genre>
+			<duration>2ч. 5мин.</duration>
+			<level>18+</level>
+		</head>
+		<actors>
+			<actor id = "3">Шарлиз Терон,</actor>
+			<actor id = "3">Кики Лэйн,</actor>
+			<actor id = "3">Марван Кензари,</actor>
+		</actors>
+	</imm_guard>
+</films>

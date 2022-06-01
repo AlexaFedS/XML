@@ -1,0 +1,29 @@
+.title{
+	color:  red;
+	font-family: Arial, monospace;
+	font-size: 18pt;
+}
+.genre {
+    color: #1BD7BB;
+    font-size: 16pt;
+    font-family: Andale Mono, monospace;
+}
+.duration {
+    color: #FEDD00;
+}
+.level {
+    font-family: Courier New, monospace;
+    text-decoration: underline;
+}
+.telo{
+    background: linear-gradient(30.95deg, #CB1AE8 -0.37%, #37BDA6 100%);
+    color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+}
+div{
+	display: flex;
+	
+}
